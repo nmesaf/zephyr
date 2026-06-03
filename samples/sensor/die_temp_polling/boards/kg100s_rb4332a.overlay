@@ -1,0 +1,17 @@
+/*
+ * Copyright (c) 2026 Martin Moya
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ *
+ * Application overlay enabling the EMU internal die temperature sensor.
+ */
+
+/ {
+	aliases {
+		die-temp0 = &temp;
+	};
+};
+
+&temp {
+	status = "okay";
+};
