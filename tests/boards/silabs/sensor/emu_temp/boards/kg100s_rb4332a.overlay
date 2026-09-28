@@ -1,0 +1,9 @@
+/*
+ * Copyright (c) 2026 Nahuel Mesa <nahuel.mesa@focus.uy>
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+&temp {
+	status = "okay";
+};
